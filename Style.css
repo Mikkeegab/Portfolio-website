@@ -1,0 +1,136 @@
+* •	{
+    Margin: 0;
+    Padding: 0;
+    Box-sizing: border-box;
+}
+
+Body {
+    Font-family: ‘Poppins’, sans-serif;
+    Line-height: 1.8;
+    Background-color: #f9f9f9;
+    Color: #333;
+}
+
+Header {
+    Background: linear-gradient(135deg, #6a11cb, #2575fc);
+    Color: #fff;
+    Padding: 20px 0;
+    Text-align: center;
+    Box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+}
+
+Header h1 {
+    Margin: 0;
+    Font-size: 2.5rem;
+    Font-weight: bold;
+    Letter-spacing: 2px;
+    Text-transform: uppercase;
+}
+
+Nav ul {
+    List-style: none;
+    Display: flex;
+    Justify-content: center;
+    Gap: 20px;
+    Margin-top: 10px;
+    Padding: 0;
+}
+
+Nav ul li a {
+    Color: #fff;
+    Text-decoration: none;
+    Font-weight: 500;
+    Padding: 8px 16px;
+    Border-radius: 50px;
+    Transition: all 0.3s ease;
+}
+
+Nav ul li a:hover {
+    Background-color: rgba(255, 255, 255, 0.3);
+}
+
+Section {
+    Padding: 40px;
+    Margin: 40px 0;
+    Max-width: 1200px;
+    Margin-left: auto;
+    Margin-right: auto;
+}
+
+#about, #projects, #contact {
+    Background-color: #fff;
+    Padding: 30px;
+    Border-radius: 20px;
+    Box-shadow: 0 4px 12px rgba(0, 0, 0, 0.1);
+    Transition: transform 0.3s ease, box-shadow 0.3s ease;
+}
+
+#about:hover, #projects:hover, #contact:hover {
+    Transform: translateY(-5px);
+    Box-shadow: 0 6px 20px rgba(0, 0, 0, 0.2);
+}
+
+.project {
+    Margin: 20px 0;
+    Padding: 15px;
+    Border-left: 4px solid #6a11cb;
+    Background: #f9f9f9;
+    Border-radius: 10px;
+}
+
+Footer {
+    Background: linear-gradient(135deg, #2575fc, #6a11cb);
+    Color: #fff;
+    Text-align: center;
+    Padding: 15px 0;
+    Font-size: 0.9rem;
+    Margin-top: 40px;
+}
+
+Button {
+    Background-color: #6a11cb;
+    Color: white;
+    Border: none;
+    Padding: 12px 20px;
+    Border-radius: 50px;
+    Font-size: 1rem;
+    Font-weight: 500;
+    Cursor: pointer;
+    Transition: background-color 0.3s ease, transform 0.3s ease;
+}
+
+Button:hover {
+    Background-color: #2575fc;
+    Transform: scale(1.05);
+}
+
+Form {
+    Display: flex;
+    Flex-direction: column;
+    Gap: 15px;
+}
+
+Form label {
+    Margin: 5px 0;
+    Font-weight: 500;
+    Color: #333;
+}
+
+Form input, form textarea {
+    Padding: 12px;
+    Border: 1px solid #ddd;
+    Border-radius: 10px;
+    Font-size: 1rem;
+    Outline: none;
+    Transition: border-color 0.3s ease, box-shadow 0.3s ease;
+}
+
+Form input:focus, form textarea:focus {
+    Border-color: #6a11cb;
+    Box-shadow: 0 0 8px rgba(106, 17, 203, 0.3);
+}
+
+
+
+
+
